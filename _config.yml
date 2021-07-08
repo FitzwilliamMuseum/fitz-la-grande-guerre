@@ -26,7 +26,7 @@ baseurl: "/la-grande-guerre" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: FitzMuseum_UK
 github_username:  fitzwilliammuseum
-background: ""
+background: "/images/p.39-1994_20140221_mfj22_dc1.jpg"
 # Build settings
 plugins:
   - jekyll-feed

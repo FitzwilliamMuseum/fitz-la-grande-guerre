@@ -12,10 +12,10 @@ import pandas as pd
 import html2markdown
 import re
 
-response = requests.get('https://www.fitzmuseum.cam.ac.uk/gallery/shahnameh/vgallery/section5.html')
+response = requests.get('https://www.fitzmuseum.cam.ac.uk/gallery/lagrandeguerre/')
 print('Visited URL: {}'.format(response.url))
 print(response.status_code)
-baseurl = 'https://www.fitzmuseum.cam.ac.uk/gallery/shahnameh/vgallery/'
+baseurl = 'https://www.fitzmuseum.cam.ac.uk/gallery/lagrandeguerre/'
 
 soup = BeautifulSoup(response.text, 'html.parser')
 type(soup)
