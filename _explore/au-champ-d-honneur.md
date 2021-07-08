@@ -2,7 +2,7 @@
 layout: default
 title: "Au champ d'honneur..."
 permalink: '/expore/au-champ-d-honneur'
-image: /images/p.11-1994.jpg
+image: /images/P.11-1994.jpg
 number: 5
 ---
 ![{{page.title}}]({{site.baseurl}}/images/P.11-1994.jpg){: .img-fluid }
