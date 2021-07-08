@@ -21,7 +21,10 @@
 title: "La Grande Guerre"
 email: "dejp3@cam.ac.uk"
 description: >- # this means to ignore newlines until "baseurl:"
-  "Website description"
+  "On 4 August 1914 the French prime minister René Viviani read an address to
+  parliament prepared by President Roland Poincaré: 'In the coming war...
+  France will be heroically defended by all its sons, whose sacred union in the
+  face of the enemy will be unbreakable'"
 baseurl: "/la-grande-guerre" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: FitzMuseum_UK
