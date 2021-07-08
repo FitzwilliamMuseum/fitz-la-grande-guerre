@@ -27,7 +27,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: FitzMuseum_UK
 github_username:  fitzwilliammuseum
 background: "/images/p.39-1994_20140221_mfj22_dc1.jpg"
+<<<<<<< HEAD
 collection_url: 'https://collection.beta.fitz.ms/'
+=======
+>>>>>>> 163a87c30df546a55fdc9f4ae0328f2929177324
 # Build settings
 plugins:
   - jekyll-feed
