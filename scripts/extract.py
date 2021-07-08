@@ -12,19 +12,20 @@ import pandas as pd
 import html2markdown
 import re
 
-response = requests.get('https://www.fitzmuseum.cam.ac.uk/gallery/shahnameh/vgallery/section5.html')
+response = requests.get('https://www.fitzmuseum.cam.ac.uk/gallery/lagrandeguerre/')
 print('Visited URL: {}'.format(response.url))
 print(response.status_code)
-baseurl = 'https://www.fitzmuseum.cam.ac.uk/gallery/shahnameh/vgallery/'
+baseurl = 'https://www.fitzmuseum.cam.ac.uk/gallery/lagrandeguerre/'
 
 soup = BeautifulSoup(response.text, 'html.parser')
 type(soup)
-
-soup = BeautifulSoup(response.text, parseOnlyThese=SoupStrainer("td"))
-x = soup.findAll("a")
+data = souP.find("div", {"id": "content"})
 links = []
-for tr in x:
-    links.append(baseurl + tr.get('href'))
+for b in data.findAll('a'):
+    link = b.get('href')
+    print(link)
+    if link != None:
+        links.append(baseurl + b.get('href'))
 print(links)
 for page in links:
     yoshi = requests.get(page)
@@ -32,32 +33,15 @@ for page in links:
     toshi = BeautifulSoup(yoshi.text, 'html.parser')
     type(toshi)
     if yoshi.status_code != 404:
-        h1 = toshi.find('div', id='content').h3
+        h1 = toshi.find('div', id='content')
         if h1 is not None:
-            title = h1.getText()
             body = toshi.find('div', id='content') or [0]
             # print(type(body))
-            body = body.getText()
-            body = body.replace('      ', '')
-            body = body.replace("     " , " ")
-            body = body.replace("  " , " ")
-            body = body.replace("\r","\n")
-            body = body.replace("\n\n\n\n\n\n\n\n","\n")
-            body = body.replace("\n\n\n\n\n\n\n","\n")
-            body = body.replace("\n\n\n\n\n","\n")
-            body = body.replace("\n\n\n\n","\n")
-            body = body.replace("\n\n\n","\n")
-            body = body.replace("\n\n","\n")
-            body = body.replace("Click for larger view [new window]" , "")
-            body = body.replace("Click on each panel for larger view [new window]" , "")
-            body = body.replace("Click on each panel to see it enlarged [new window]" , "")
+            body = str(body.prettify())
             layout = 'default'
-            permalink = ' /explore/objects/' + slugify(title[:75])
-            mark = open('/Users/danielpett/Documents/GitHub/shahnameh/_explore/' + slugify(title[:75]) + '.md', "w")
+            mark = open('/Users/danielpett/Documents/GitHub/la-grande-guerre/_explore/' + slugify(page) + '.md', "w")
             meta = '---\n'
             meta +=  'layout: ' + layout + '\n'
-            meta += 'title: "' + title.rstrip() + '"\n'
-            meta += 'permalink: ' + permalink + '\n'
             meta += '---\n'
             meta += body
             mark.write(meta)

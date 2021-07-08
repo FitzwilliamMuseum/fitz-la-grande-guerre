@@ -208,20 +208,20 @@ video {
   transition: opacity .3s 0s, visibility 0s .3s, background-color .3s 0s;
 }
 
-.cd-top.cd-top--show,
-.cd-top.cd-top--fade-out,
+.cd-toP.cd-top--show,
+.cd-toP.cd-top--fade-out,
 .cd-top:hover {
   -webkit-transition: opacity .3s 0s, visibility 0s 0s, background-color .3s 0s;
   transition: opacity .3s 0s, visibility 0s 0s, background-color .3s 0s;
 }
 
-.cd-top.cd-top--show {
+.cd-toP.cd-top--show {
   /* the button becomes visible */
   visibility: visible;
   opacity: 1;
 }
 
-.cd-top.cd-top--fade-out {
+.cd-toP.cd-top--fade-out {
   /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
   opacity: .5;
 }
@@ -492,10 +492,10 @@ label.cm-app-label {
   object-fit: cover;
 }
 
-.gnw-map.fade {
+.gnw-maP.fade {
   transition: opacity .15s linear;
 }
-.gnw-map.fade:not(.show) {
+.gnw-maP.fade:not(.show) {
   opacity: 0;
 }
 a.share-click {
@@ -828,7 +828,7 @@ h5 > a:hover::before {
   color: #f5f5f5!important;
 }
 
-p.small-font {
+P.small-font {
   font-size: 1rem!important;
 }
 .free_ticket {

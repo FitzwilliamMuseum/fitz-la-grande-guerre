@@ -1,14 +1,14 @@
 ---
 layout: default
 permalink: /explore/
-title: Explore wood block prints
+title: Explore the prints
 ---
 <div class="container mb-3">
   <div class="row">
 {% assign rows = site.explore.size | divided_by: 2.0 | ceil %}
 {% for i in (1..rows) %}
 {% assign offset = forloop.index0 | times: 2 %}
-{% assign sorted = site.explore | sort:"order" %}
+{% assign sorted = site.explore | sort:"number" %}
     {% for author in sorted limit:2 offset:offset %}
     <div class="col-md-4 mb-3">
       <div class="card h-100" >
@@ -19,6 +19,7 @@ title: Explore wood block prints
           <h3 class="lead mt-2">
             <a href="{{site.url}}{{site.baseurl}}{{ author.permalink }}" class="stretched-link">{{author.title}}</a>
           </h3>
+          <p class="text-info">Number {{author.number}}</p>
         </div>
       </div>
     </div>
