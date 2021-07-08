@@ -12,7 +12,7 @@ _La prise de Steinbach ..._
 **The capture of Steinbach. Our progress in Alsace...**  
 Lithograph with hand colouring through stencils. Publisher: Tolmer & Co. 1915.  
 Given by Sophie Gurney 1994  
-
+[P.39-1994]({{site.collection_url}}id/object/198911)  
 No. 38 from the 2nd series _La Grande Guerre_ .
 
 With this print the series shifts its focus back to Alsace to relate France's progress in the region during the fortnight after Christmas 1914. General Joseph Joffre began an offensive in southern Alsace in order to reconquer the town of Mulhouse, which had been taken by Germany on 7 August. The attack was planned to last only a few hours, but dragged on for 15 days. Newspaper reports described the slow progress made by the French army:
@@ -29,5 +29,3 @@ Le fait le plus saillant de ces mémorables journées fut certainement la prise 
 
 The storming of Steinbach. Our progress en Alsace from 25 December 1914 to 5 January 1915  
 The most prominent event of these memorable days was certainly the taking of Steinbach by our cavalrymen: fierce fighting took place there. Our soldiers advanced with a magnificent spirit, in the most joyous exaltation. House by house and street by street they conquered part of the village, but the Germans, exasperated by this steady progress, began a big counter-attack and drive our troops back, out of the village. Without delay our valiant soldiers fought back vigorously and before dawn they took back Steinbach and drove out the enemy. The German failure was complete and significant.
-
-[P.39-1994]({{site.collection_url}}id/object/198911)
