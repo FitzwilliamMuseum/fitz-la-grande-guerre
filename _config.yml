@@ -25,12 +25,12 @@ description: >- # this means to ignore newlines until "baseurl:"
   parliament prepared by President Roland Poincaré: 'In the coming war...
   France will be heroically defended by all its sons, whose sacred union in the
   face of the enemy will be unbreakable'"
-baseurl: "/la-grande-guerre" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://la-grande-guerre.fitzmuseum.cam.ac.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: FitzMuseum_UK
 github_username:  fitzwilliammuseum
 background: "/images/p.39-1994_20140221_mfj22_dc1.jpg"
-collection_url: "https://collection.beta.fitz.ms/"
+collection_url: "https://data.fitzmuseum.cam.ac.uk/"
 # Build settings
 plugins:
   - jekyll-feed
