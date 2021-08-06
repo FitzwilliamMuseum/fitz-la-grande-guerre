@@ -58,7 +58,7 @@ collections:
 feed:
   collections:
     - blog
-
+google_analytics: 'G-2R0YLY9DRS'
 timezone: Europe/London
 permalink: pretty
 encoding: "utf-8"
