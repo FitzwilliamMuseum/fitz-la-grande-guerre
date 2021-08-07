@@ -43,21 +43,11 @@ plugins:
   - jekyll-seo-tag
   - jemoji
   - jekyll-mentions
-
 collections:
    explore:
       output: true
-   about:
-      output: true
    resources:
       output: true
-   team:
-      output: true
-   blog:
-      output: true
-feed:
-  collections:
-    - blog
 google_analytics: 'G-2R0YLY9DRS'
 timezone: Europe/London
 permalink: pretty
