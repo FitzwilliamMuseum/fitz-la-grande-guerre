@@ -5,7 +5,7 @@ permalink: /explore/la-prise-de-przemysl
 image: /images/P.56-1994.jpg
 number: 53
 ---
-![La prise de Przemysl...]({{site.baseurl}}images/P.56-1994.jpg){: .img-fluid }
+![La prise de Przemysl...]({{site.baseurl}}/images/P.56-1994.jpg){: .img-fluid }
 
 Eduardo Garcia Benito (1891-1981)  
 _La prise de Przemysl..._  
