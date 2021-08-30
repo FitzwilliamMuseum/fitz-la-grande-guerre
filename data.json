@@ -5,6 +5,7 @@
         "{{ entry.url | slugify }}": {
             "title": "{{ entry.title | xml_escape }}",
             "url": "{{site.url}}{{ entry.url | xml_escape }}",
+            "slug": "{{ entry.permalink | xml_escape }}",
             "summary": "{{ entry.content | newline_to_br |  replace: '<br />', ' ' | strip_newlines | strip_html | strip | xml_escape | truncatewords: 50  }}",
             "content": "{{ entry.content  | newline_to_br |  replace: '<br />', ' ' | strip_newlines | strip_html | strip | xml_escape }}",
             "thumbnail": "{{site.url}}{{ entry.image | xml_escape }}",
