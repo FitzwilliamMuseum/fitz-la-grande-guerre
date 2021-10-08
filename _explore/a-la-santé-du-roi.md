@@ -25,7 +25,7 @@ The first big assault of the war by the German army was against Liège on 5 Augu
 
 The French caption with English translation:
 
-> _A LA SANTÉ DU ROI  
+> **A LA SANTÉ DU ROI**
 O ! Belgique , ô ! mère chèrie,  
 A toi nos coeurs, à toi nos bras !  
 A toi notre sang ! ô ! Patrie,  
@@ -34,9 +34,9 @@ Tu vivras toujours grande et belle,
 Et ton invincible unité  
 Aura pour devise immortelle :  
 LE ROI, LA LOI, LA LIBERTÉ.  
-_Dernière strophe de La Brabançonne
+*Dernière strophe de La Brabançonne*
 
-To the King's health  
+> **To the King's health**  
 O Belgium, o mother dear,  
 To thee our hearts, to thee our arms!  
 To thee our blood! O motherland!  
@@ -45,6 +45,6 @@ You will live, so great and beautiful,
 And your invincible unity  
 Shall have this immortal maxim -  
 The King, the Law and Freedom!  
-_Last stanza of La Brabanconne_
+*Last stanza of La Brabanconne*
 
 [P.42-1994]({{site.collection_url}}id/object/198914)
