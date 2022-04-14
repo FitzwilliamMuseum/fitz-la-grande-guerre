@@ -1,5 +1,7 @@
 # La Grande Guerre
 
+[![DOI](https://zenodo.org/badge/384094080.svg)](https://zenodo.org/badge/latestdoi/384094080)
+
 A repository holding ported HTML to Jekyll content from an early 2000s Fitzwilliam Museum exhibition.
 
 ## To run locally
