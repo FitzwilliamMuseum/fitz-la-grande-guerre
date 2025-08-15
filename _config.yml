@@ -45,7 +45,7 @@ collections:
       output: true
    resources:
       output: true
-google_analytics: 'G-2R0YLY9DRS'
+#google_analytics: 'G-2R0YLY9DRS'
 timezone: Europe/London
 permalink: pretty
 encoding: "utf-8"
